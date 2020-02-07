@@ -1,5 +1,13 @@
-.app-container {
-  padding: 5% 30%;
+@media screen and (max-width: 1000px) {
+  .app-container {
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .app-container {
+    padding: 5% 30%;
+  }
 }
 
 .ui.form .fields .field.checkbox-field {
